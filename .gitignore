@@ -1,3 +1,8 @@
+.DS_Store
+
+# folder for the actuall data storage
 /data
 
+.env.local
+.env
 *.env
