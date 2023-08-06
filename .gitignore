@@ -2,5 +2,9 @@
 
 # folder for the actuall data storage
 /data
+/filebeat_ingest_data
+/logstash_ingest_data
 
 .env.local
+.env
+*.env
