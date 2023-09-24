@@ -13,3 +13,17 @@ In the above command:
 -p 9200:9200 -p 9300:9300: maps the ports from the container to your host.
 -e "discovery.type=single-node": sets an environment variable to ensure Elasticsearch runs as a single node.
 -v /path/to/your/elasticsearch/data:/usr/share/elasticsearch/data: mounts a volume for data persistence.
+
+
+
+```
+docker cp elasticsearch-es01-1:/usr/share/elasticsearch/config/certs/ca/ca.crt .
+```
+
+
+how to start and stop 
+```
+docker compose start
+docker compose stop
+```
+
